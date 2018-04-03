@@ -1,0 +1,12 @@
+public class Crash{
+  public static void main(String args[]){
+    String Betty = new String("All animals are not equal");
+    String Kanye = new String("ALL ANIMALS ARE NOT EQUAL");
+    boolean Scam;
+    Scam = Betty.equalsIgnoreCase(Kanye);
+    System.out.println(Scam);
+
+    Scam = Betty.endsWith("al");
+    System.out.println(Scam);
+  }
+}
