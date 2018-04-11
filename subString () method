@@ -1,0 +1,8 @@
+import java.io.*;
+public class Crash{
+  public static void main(String args[]){
+    String dune = new String("No weapon fashoned against me shall prosper");
+    String answer = new String(dune.substring(0, 9));
+    System.out.println(answer);
+  }
+}
